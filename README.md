@@ -26,12 +26,14 @@ After exiting the user interface, the program will perform a performance analysi
 The project includes unit tests for each hash algorithm implementation. To run the tests, execute the following command:
 
 python -m unittest tests/test_md5.py
+======================================================
 python -m unittest tests/test_sha256.py
+======================================================
 python -m unittest tests/test_murmur3.py
-
+======================================================
 This will run all the test cases in the `tests` directory.
 
-online-hash-algorithms/
+online-hash-algorithms/(https://github.com/Aayushtech28/Online-Hash-Algorithms)
 ├── src/
 │   ├── hash_algorithms/
 │   │   ├── md5.py
