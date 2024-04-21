@@ -31,7 +31,6 @@ python -m unittest tests/test_murmur3.py
 
 This will run all the test cases in the `tests` directory.
 
-## Project Structure
 online-hash-algorithms/
 ├── src/
 │   ├── hash_algorithms/
@@ -47,6 +46,7 @@ online-hash-algorithms/
 │   └── test_murmur3.py
 ├── README.md
 └── requirements.txt
+
 
 - `src/hash_algorithms/`: Contains the implementations of different hash algorithms
 - `src/user_interface.py`: Handles user input and displays computed hash values
